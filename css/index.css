@@ -1,0 +1,304 @@
+.main {
+  width: 980px;
+  height: 455px;
+  margin-left: 219px;
+  margin-top: 10px;
+}
+.focus {
+  position: relative;
+  width: 721px;
+  height: 455px;
+  overflow: hidden;
+}
+.focus ul { 
+  position: absolute;
+  top:0;
+  left:0;
+  width: 600%;
+}
+.focus ul li {
+  float: left;
+}
+.newsflash {
+  width: 250px;
+  height: 455px;
+}
+.arrow-l,
+.arrow-r {
+  display: none;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  width: 24px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  z-index: 2;
+}
+.arrow-r {
+  right: 0;
+}
+.circle {
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+}
+.circle li {
+  float: left;
+  width: 8px;
+  height: 8px;
+  /* background-color: #fff; */
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  margin: 0 3px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.circle .current {
+  background-color: #fff;
+}
+.news {
+  height: 163px;
+  border: 1px solid #ccc;
+}
+.lifeservice {
+  height: 208px;
+  border: 1px solid #ccc;
+  border-top: 0;
+}
+.bargin {
+  height: 75px;
+  margin-top: 5px;
+}
+.news-hd {
+  height: 32px;
+  border-bottom: 1px dotted #ccc;
+  padding-left: 15px;
+  font-size: 14px;
+  line-height: 32px;
+}
+.news-hd a {
+  float: right;
+  font-size: 12px;
+  font-family: "icomoon";
+}
+.news-bd {
+  padding: 10px 0 0 15px;
+}
+.news-bd li {
+  height: 23px;
+}
+.lifeservice {
+  overflow: hidden;
+  height: 208px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.lifeservice ul {
+  width: 252px;
+}
+
+.lifeservice li {
+  position: relative;
+  float: left;
+  width: 62px;
+  height: 70px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.lifeservice li a {
+  display: block;
+  /* 这里的overflow: hidden; 解决外边距溢出的问题*/
+  overflow: hidden;
+  height: 100%;
+}
+.lifeservice li p {
+  text-align: center;
+}
+.hot {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 12px;
+  height: 15px;
+  background: url("../img/jian.jpg") no-repeat;
+}
+.service_ico {
+  background-color: pink;
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url("../img/icons.png") no-repeat;
+  margin: 10px auto;
+}
+.service_ico_huafei {
+  background-position: -17px -16px;
+}
+.service_ico_feiji {
+  width: 26px;
+  background-position: -78px -16px;
+}
+.service_ico_dianying {
+  width: 26px;
+  background-position: -140px -16px;
+}
+.service_ico_youxi {
+  width: 26px;
+  background-position: -206px -16px;
+}
+.service_ico_caipiao {
+  width: 26px;
+  background-position: -16px -88px;
+}
+.service_ico_jiayou {
+  width: 26px;
+  background-position: -77px -88px;
+}
+.service_ico_jiudian {
+  width: 26px;
+  background-position: -141px -88px;
+}
+.service_ico_huoche {
+  width: 26px;
+  background-position: -206px -88px;
+}
+.service_ico_zongchou {
+  width: 26px;
+  background-position: -16px -159px;
+}
+.service_ico_licai {
+  width: 26px;
+  background-position: -77px -159px;
+}
+.service_ico_lipin {
+  width: 26px;
+  background-position: -140px -159px;
+}
+.service_ico_baitiao {
+  width: 26px;
+  background-position: -205px -159px;
+}
+.recommend {
+  height: 163px;
+  margin-top: 10px;
+}
+.recom-hd {
+  width: 200px;
+  height: 163px;
+  background-color: #5c5251;
+  text-align: center;
+}
+.recom-hd img {
+  margin: 30px 0 10px 0;
+}
+.recom-hd h3 {
+  font-size: 18px;
+  color: #fff;
+}
+.recom-bd {
+  background-color: #ebebeb;
+  width: 1000px;
+  height: 163px;
+}
+.recom-bd li {
+  float: left;
+  width: 249px;
+  height: 145px;
+  border-right: 1px solid #ccc;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.recom-bd li:nth-child(4) {
+  border-right: 0;
+}
+
+/* floor */
+.box-hd {
+  height: 30px;
+  border-bottom: 2px solid #c81623;
+  margin-top: 25px;
+}
+.box-hd h3 {
+  float: left;
+  font-size: 18px;
+  color: #c81623;
+}
+.tab-list {
+  float: right;
+  line-height: 30px;
+}
+.tab-list li {
+  float: left;
+}
+.tab-list li a {
+  margin: 0 15px;
+}
+.box-bd {
+  height: 360px;
+}
+.box-bd li {
+  overflow: hidden;
+}
+.box-bd img {
+  transition: all 0.5s;
+}
+.box-bd img:hover {
+  margin-left: 8px;
+}
+.tab-con li {
+  float: left;
+  height: 361px;
+}
+.w209 {
+  width: 209px;
+  background-color: #f9f9f9;
+}
+.w329 {
+  width: 329px;
+}
+.w220 {
+  width: 220px;
+  border-right: 1px solid #ccc;
+}
+.w219 {
+  width: 219px;
+  border-right: 1px solid #ccc;
+}
+.tab-con-item {
+  border-bottom: 1px solid #ccc;
+}
+.tab-con-list {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.tab-con-list li {
+  width: 86px;
+  height: 32px;
+  line-height: 32px;
+  border-bottom: 1px solid #ccc;
+  margin-left: 10px;
+  text-align: center;
+}
+/* 电梯导航 */
+.fixedtool {
+  width: 66px;
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  margin-left: -676px;
+  background-color: #fff;
+  display: none;
+}
+.fixedtool li {
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 12px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+.fixedtool .current {
+  background-color: #c81623;
+  color: #fff;
+}
